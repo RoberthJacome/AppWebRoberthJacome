@@ -1,0 +1,15 @@
+PoliMusic - carpeta de audios
+=============================
+
+Coloca aquí los archivos .mp3 que se registran en TBL_SONG.
+
+Ejemplo de ruta guardada en la base de datos:
+
+    ~/songFiles/bensound-adventure.mp3
+
+El archivo físico debe quedar así:
+
+    webapppolimusicv1_asp/songFiles/bensound-adventure.mp3
+
+En songs.asp la ruta se convierte con Replace(ruta, "~/", "") antes de
+generar el <audio>, porque en ASP clásico "~/" no funciona.

@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+[Bb]in/
+[Oo]bj/
+*.log
+
+# Agente WorkBuddy (memoria local)
+.workbuddy-ai/
+
+# Credenciales: la cadena de conexión tiene usuario y contraseña de la BD
+# Por ahora la base de datos es local y por eso la subiré al repo, aunque no es buena práctica. 
+# En un proyecto real, las credenciales de la base de datos deberían estar en un archivo de configuración que no se sube al repo.
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# OPCIONAL: descomenta si no quieres subir los mp3 (pesan y Bensound limita su redistribución).
+# LEEME.txt se sube igual para que la carpeta songFiles exista en el repo.
+# webapppolimusicv1_asp/songFiles/*.mp3
